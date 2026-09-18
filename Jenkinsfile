@@ -16,7 +16,7 @@ pipeline {
 
         stage('Package') {
             steps {
-                sh 'tar -czf order-app.tar.gz application.py'
+                sh 'tar -czf order-app.tar.gz app.py'
             }
         }
 
